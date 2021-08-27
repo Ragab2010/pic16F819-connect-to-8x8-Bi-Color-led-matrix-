@@ -1,0 +1,175 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F819 ]
+[d frameptr 6 ]
+"62 /opt/microchip/xc8/v1.45/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /opt/microchip/xc8/v1.45/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 /opt/microchip/xc8/v1.45/sources/pic/eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"58 /home/ragab/MPLABXProjects/pic16F819.X/main.c
+[v _setup setup `(v  1 e 1 0 ]
+"85
+[v _collided_data collided_data `(v  1 e 1 0 ]
+"104
+[v _collided collided `(v  1 e 1 0 ]
+"178
+[v _main main `(v  1 e 1 0 ]
+"216
+[v _delay delay `(v  1 e 1 0 ]
+"232
+[v _end_data end_data `(uc  1 e 1 0 ]
+"317
+[v _display display `(v  1 e 1 0 ]
+"377
+[v _check_collision check_collision `(v  1 e 1 0 ]
+"389
+[v _car car `(v  1 e 1 0 ]
+"401
+[v _go_left go_left `(v  1 e 1 0 ]
+"413
+[v _go_right go_right `(v  1 e 1 0 ]
+"424
+[v _joystick joystick `(v  1 e 1 0 ]
+"438
+[v _button_time button_time `(v  1 e 1 0 ]
+"451
+[v _track_data track_data `(uc  1 e 1 0 ]
+"537
+[v _fill_vram fill_vram `(v  1 e 1 0 ]
+"71 /opt/microchip/xc8/v1.45/include/pic16f819.h
+[v _STATUS STATUS `VEuc  1 e 1 @3 ]
+"164
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+[s S34 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"181
+[u S43 . 1 `S34 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES43  1 e 1 @5 ]
+"226
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"932
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"994
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"38 /home/ragab/MPLABXProjects/pic16F819.X/main.c
+[v _counta counta `i  1 e 2 0 ]
+[v _countb countb `i  1 e 2 0 ]
+"39
+[v _pc_track pc_track `uc  1 e 1 0 ]
+[v _pc_end_graphics pc_end_graphics `uc  1 e 1 0 ]
+"40
+[v _vram_1 vram_1 `i  1 e 2 0 ]
+[v _vram_2 vram_2 `i  1 e 2 0 ]
+[v _vram_3 vram_3 `i  1 e 2 0 ]
+[v _vram_4 vram_4 `i  1 e 2 0 ]
+[v _vram_5 vram_5 `i  1 e 2 0 ]
+[v _vram_6 vram_6 `i  1 e 2 0 ]
+[v _vram_7 vram_7 `i  1 e 2 0 ]
+[v _vram_8 vram_8 `i  1 e 2 0 ]
+"41
+[v _vtemp_1 vtemp_1 `i  1 e 2 0 ]
+[v _vtemp_2 vtemp_2 `i  1 e 2 0 ]
+[v _vtemp_3 vtemp_3 `i  1 e 2 0 ]
+[v _vtemp_4 vtemp_4 `i  1 e 2 0 ]
+[v _vtemp_5 vtemp_5 `i  1 e 2 0 ]
+[v _vtemp_6 vtemp_6 `i  1 e 2 0 ]
+[v _vtemp_7 vtemp_7 `i  1 e 2 0 ]
+"42
+[v _repeat_frame repeat_frame `i  1 e 2 0 ]
+[v _car_data car_data `i  1 e 2 0 ]
+[v _button_timer button_timer `i  1 e 2 0 ]
+[v _button_adjust button_adjust `i  1 e 2 0 ]
+[v _stop_repeat stop_repeat `i  1 e 2 0 ]
+[v _level level `i  1 e 2 0 ]
+[v _speed speed `i  1 e 2 0 ]
+[v _end_hold end_hold `i  1 e 2 0 ]
+[v _i i `i  1 e 2 0 ]
+"43
+[v _press press `i  1 e 2 0 ]
+"178
+[v _main main `(v  1 e 1 0 ]
+{
+"214
+} 0
+"537
+[v _fill_vram fill_vram `(v  1 e 1 0 ]
+{
+"564
+} 0
+"451
+[v _track_data track_data `(uc  1 e 1 0 ]
+{
+"535
+} 0
+"317
+[v _display display `(v  1 e 1 0 ]
+{
+"375
+} 0
+"377
+[v _check_collision check_collision `(v  1 e 1 0 ]
+{
+"386
+} 0
+"389
+[v _car car `(v  1 e 1 0 ]
+{
+"399
+} 0
+"424
+[v _joystick joystick `(v  1 e 1 0 ]
+{
+"436
+} 0
+"413
+[v _go_right go_right `(v  1 e 1 0 ]
+{
+"423
+} 0
+"401
+[v _go_left go_left `(v  1 e 1 0 ]
+{
+"411
+} 0
+"438
+[v _button_time button_time `(v  1 e 1 0 ]
+{
+"449
+} 0
+"85
+[v _collided_data collided_data `(v  1 e 1 0 ]
+{
+"102
+} 0
+"216
+[v _delay delay `(v  1 e 1 0 ]
+{
+"230
+} 0
+"104
+[v _collided collided `(v  1 e 1 0 ]
+{
+"176
+} 0
+"58
+[v _setup setup `(v  1 e 1 0 ]
+{
+"82
+} 0
+"232
+[v _end_data end_data `(uc  1 e 1 0 ]
+{
+"315
+} 0
